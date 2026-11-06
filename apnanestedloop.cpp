@@ -139,16 +139,80 @@ int main(){
 //     }
 // cout<<endl;
 //  }
-
-
-
-
-
-
-
-
-
-
+// ##########################################do again
+//  int n,number;
+//  cin>>n;
+//  for(int i=0;i<n;i++){
+//     number=1;
+//     for(int j=0;i>=j;j++){
+//      cout<<number<<" ";
+//      number++;
+//     }
+//     cout<<endl;
+//  }
+// int n;
+// cin>>n;
+// for(int i=0;i<=(n-1);i++){
+//     for(int j=0;j<(i+1);j++){
+//         cout<<(j+1)<<" ";
+//     }
+//     cout<<endl;
+// }
+// ######################################do again
+// int n,number; 
+// cin>>n;
+// for(int i=0;i<n;i++){
+//     number=i+1;
+//     for(int j=0;j<=i;j++){
+//         cout<<number;
+//         number--;
+//     }
+//     cout<<endl;
+// }
+// int n;
+// cin>>n;
+// for(int i=0;i<n;i++){
+//     for(int j=(i+1);j>0;j--){
+//         cout<<j<<" ";
+//     }
+//     cout<<endl;
+// }
+// int n,number=1;
+// cin>>n;
+// for(int i=0;i<n;i++){
+//     for(int j=0;j<=i;j++){
+//     cout<<number<<" ";
+//     number++;
+//     }
+//     cout<<endl;
+// }
+//  int n;
+//  cin>>n;
+//  for(int i=0;i<n;i++){
+//     for(int j=i+1;j>0;j--){
+//      cout<<j<<" ";
+//     }
+//     cout<<endl;
+//  }
+int n;
+cin>>n;
+char ch,test;
+cin>>ch;
+for(int i=0;i<n;i++){
+   for(int j=(i+1);j>0;j--){
+      test=(ch+(j-1));
+      cout<<test<<" "; 
+   }
+   cout<<endl;
+}
+// output is like-if n=4 and ch='A'
+// A
+// B A
+// C B A
+// D C B A
+//  ##################day 3
+int n;
+cin>>n;
 
 
 
