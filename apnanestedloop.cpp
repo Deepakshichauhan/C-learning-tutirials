@@ -194,25 +194,239 @@ int main(){
 //     }
 //     cout<<endl;
 //  }
-int n;
-cin>>n;
-char ch,test;
-cin>>ch;
-for(int i=0;i<n;i++){
-   for(int j=(i+1);j>0;j--){
-      test=(ch+(j-1));
-      cout<<test<<" "; 
-   }
-   cout<<endl;
-}
+// int n;
+// cin>>n;
+// char ch,test;
+// cin>>ch;
+// for(int i=0;i<n;i++){
+//    for(int j=(i+1);j>0;j--){
+//       test=(ch+(j-1));
+//       cout<<test<<" "; 
+//    }
+//    cout<<endl;
+// }
 // output is like-if n=4 and ch='A'
 // A
 // B A
 // C B A
 // D C B A
 //  ##################day 3
-int n;
-cin>>n;
+// int m,num=0;
+// cin>>m;
+// for(int i=0;i<m;i++){
+//    num++;
+// for(int j=0;j<m;j++){
+//    if(i>j){
+//       cout<<" "<<" ";
+//    }else{
+//       cout<<num<<" ";
+//    }
+// }
+// cout<<endl;
+// }
+// or we can
+// int n;
+// cin>>n;
+// for(int i=0;i<n;i++){
+//    for(int j=0;j<i;j++){
+//       cout<<" "<<" ";
+//    }for(int j=0;j<(n-i);j++){
+//      cout<<(i+1)<<" ";
+//    }
+//   cout<<endl; 
+// }
+// for abcd##################################
+// int n;
+// cin>>n;
+// char ch,alphabet='A';
+// for(int i=0;i<n;i++){
+//   ch= (alphabet+i);
+//    for(int j=0;j<i;j++){
+//       cout<<" "<<" ";
+//    }for(int j=0;j<(n-i);j++){
+//       cout<<ch<<" ";
+//    }
+   
+//    cout<<endl;
+// }
+// int n;
+// cin>>n;
+// for(int i=0;i<n;i++){
+//    for(int j=0;j<(n-i-1);j++){
+//       cout<<" "<<" ";
+//    }
+//    int num1;
+//    num1=1;
+//    for(int j=0;j<(i+1);j++){
+//       cout<<num1<<" ";
+//       num1++;
+//    }
+//    cout<<endl;
+//    }
+// int n;
+// cin>>n;
+// for(int i=0;i<n;i++){
+//    for(int j=0;j<(n-i-1);j++){
+//       cout<<" "<<" ";
+//    }
+//    int num1;
+//    num1=1;
+//    for(int j=0;j<(i+1);j++){
+//       cout<<num1<<" ";
+//       num1++;
+//    }
+//    int num2=i;
+//    for(int j=0;j<i;j++){
+//       cout<<num2<<" ";
+//       num2--;
+//    }
+//    cout<<endl;  
+//    }
+// or
+// int n;
+// cin>>n;
+// for(int i=0;i<n;i++){
+//    for(int j=0;j<(n-i-1);j++){
+//       cout<<" "<<" ";
+//    }for(int j=1;j<=(i+1);j++){
+//       cout<<j<<" ";
+//    }for(int j=i;j>=1;j--){
+//       cout<<j<<" ";
+//    }
+//    cout<<endl;
+// }
+// int n;
+// cin>>n;
+// char ch;
+// for(int i=0;i<n;i++){
+//    for(int j=0;j<(n-i-1);j++){
+//       cout<<" "<<" ";
+//    }for(int j=0;j<(i+1);j++){
+//       ch=('A'+j);
+//       cout<<ch<<" ";
+//    }for(int j=(i-1);j>=0;j--){
+//       ch=('A'+j);
+//       cout<<ch<<" ";
+//    }
+//    cout<<endl;
+// }
+// for printing hollow diamond pattern#################################
+// int n;
+// cin>>n;
+// for(int i=0;i<n;i++){
+//     for(int j=0;j<((n-i)-1);j++){
+//         cout<<" ";
+//     }
+//     cout<<"*";
+//     if(i!=0){
+//     for(int j=0;j<(2*i-1);j++){
+//         cout<<" ";
+//     }
+//     cout<<"*";
+//    }
+//     cout<<endl;
+// }
+// for(int i=0;i<(n-1);i++){
+//     for(int j=0;j<(i+1);j++){
+//         cout<<" ";
+//     }cout<<"*";
+//     if(i!=(n-2)){
+//         for(int j=0;j<(2*(n-i)-5);j++){
+//             cout<<" ";
+//         }cout<<"*";
+//     }
+//     cout<<endl;
+// }
+// buterfly pattern########################################
+// int n;
+// cin>>n;
+// for(int i=0;i<n;i++){
+//     for(int j=0;j<(i+1);j++){
+//         cout<<"*";
+//     }if(i!=(n-1)){
+//         for(int j=0;j<2*(n-1-i);j++){
+//             cout<<" ";
+//         }
+//     }for(int j=0;j<(i+1);j++){
+//         cout<<"*";
+//     }
+//     cout<<endl;
+// }
+// for(int i=0;i<n;i++){
+//     for(int j=0;j<(n-i);j++){
+//         cout<<"*";
+//     }if(i!=0){
+//         for(int j=0;j<2*i;j++){
+//             cout<<" ";
+//         }
+//     }for(int j=0;j<(n-i);j++){
+//         cout<<"*";
+//     }
+//     cout<<endl;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -223,6 +437,29 @@ cin>>n;
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
