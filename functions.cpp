@@ -181,25 +181,25 @@ using namespace std;
 //     printingprimenumbers(num);
 //     return 0;
 // }
-// for the fibonacci series
-int fibonacciseries(int n){
-int sum,previous1=1,previous2=0;
-if(n==0){
-    return 0;
-}
-for(int i=1;i<n;i++){
-    sum=previous1+previous2;
-    previous2=previous1;
-    previous1=sum;
-}
-return previous1;
-}
-int main(){
-    int n;
-    cin>>n;
-    cout<<fibonacciseries(n);
-    return 0;
-}
+// for the fibonacci series###########################
+// int fibonacciseries(int n){
+// int sum,previous1=1,previous2=0;
+// if(n==0){
+//     return 0;
+// }
+// for(int i=1;i<n;i++){
+//     sum=previous1+previous2;
+//     previous2=previous1;
+//     previous1=sum;
+// }
+// return previous1;
+// }
+// int main(){
+//     int n;
+//     cin>>n;
+//     cout<<fibonacciseries(n);
+//     return 0;
+// }
 
 
 
