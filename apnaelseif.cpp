@@ -44,8 +44,27 @@ int main(){
 // else{
 //     cout<<"c is the largest";
 // }
+// switch case 
+int age;
+cin>>age;
+switch(age)
+{
+case 2:
+    cout<<"the age is 2 ";
+    break;
+case 45:
+    cout<<"the age is 45 ";
+    break;
+case 18:
+    cout<<"the age is 18 ";
+    break;
+default:
+    cout<<"the age is not mached";
+    break;
+}
 
 
+}
 
 
 
