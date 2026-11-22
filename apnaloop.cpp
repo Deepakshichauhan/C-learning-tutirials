@@ -191,9 +191,16 @@ int main(){
 // }else{
 // cout<<"the provided number is not prime number";
 // }
- 
+//  #####
+int num;
 
+for(int i=1;i<=10;i++){
+    num=6;
+    num*=i;
+    cout<<num<<endl;
+}
 
+return 0;
 
 
 
