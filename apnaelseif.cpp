@@ -291,49 +291,49 @@ int main(){
 // }else if(per<30){
 //     cout<<"F";
 // }
-float unit,rental,ebill,punit,gst;
-cin>>unit;
-if(unit<=100){
-punit=3.10;
-rental=120;
-unit*=punit;
-ebill=unit+rental;
-gst=ebill*(18.0/100);
-ebill+=gst;
-cout<<"the bill is "<<ebill;
-}else if(unit<=200){
-punit=4.10;
-rental=160;
-unit*=punit;
-ebill=unit+rental;
-gst=ebill*(18.0/100);
-ebill+=gst;
-cout<<"the bill is "<<ebill;
-}else if(unit<=300){
-punit=5.20;
-rental=210;
-unit*=punit;
-ebill=unit+rental;
-gst=ebill*(18.0/100);
-ebill+=gst;
-cout<<"the bill is "<<ebill;
-}else if(unit<=400){
-punit=6.15;
-rental=260;
-unit*=punit;
-ebill=unit+rental;
-gst=ebill*(18.0/100);
-ebill+=gst;
-cout<<"the bill is "<<ebill;
-}else if(unit>400){
-punit=8.25;
-rental=310;
-unit*=punit;
-ebill=unit+rental;
-gst=ebill*(18.0/100);
-ebill+=gst;
-cout<<"the bill is "<<ebill;
-}
+// float unit,rental,ebill,punit,gst;
+// cin>>unit;
+// if(unit<=100){
+// punit=3.10;
+// rental=120;
+// unit*=punit;
+// ebill=unit+rental;
+// gst=ebill*(18.0/100);
+// ebill+=gst;
+// cout<<"the bill is "<<ebill;
+// }else if(unit<=200){
+// punit=4.10;
+// rental=160;
+// unit*=punit;
+// ebill=unit+rental;
+// gst=ebill*(18.0/100);
+// ebill+=gst;
+// cout<<"the bill is "<<ebill;
+// }else if(unit<=300){
+// punit=5.20;
+// rental=210;
+// unit*=punit;
+// ebill=unit+rental;
+// gst=ebill*(18.0/100);
+// ebill+=gst;
+// cout<<"the bill is "<<ebill;
+// }else if(unit<=400){
+// punit=6.15;
+// rental=260;
+// unit*=punit;
+// ebill=unit+rental;
+// gst=ebill*(18.0/100);
+// ebill+=gst;
+// cout<<"the bill is "<<ebill;
+// }else if(unit>400){
+// punit=8.25;
+// rental=310;
+// unit*=punit;
+// ebill=unit+rental;
+// gst=ebill*(18.0/100);
+// ebill+=gst;
+// cout<<"the bill is "<<ebill;
+// }
 
 
 
