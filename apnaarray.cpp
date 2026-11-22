@@ -1,4 +1,5 @@
 #include<iostream>
+#include<climits>
 using namespace std;
 
 int main(){
@@ -22,6 +23,58 @@ int main(){
 // for(int j=0;j<size;j++){
 // cout<<marks[j]<<endl;
 // }
+// ######################### starting today array
+//  finding the smallest value in the array 
+// int size;
+// cout<<"enter the size of the array \n";
+// cin>>size;
+// int smallest= INT_MAX;
+// int nums[size];
+
+// for(int i=0;i<size;i++){
+//     cout<<"the index "<<i<<" value is ";
+//     cin>>nums[i];
+// }for(int i=0;i<size;i++){
+// if(nums[i]<smallest){
+//     smallest=nums[i];
+// }
+// }for(int i=0;i<size;i++){
+//     if(smallest==nums[i]){
+//         cout<<"the index of the smallest value is "<<i;
+//     }
+// }
+// cout<<"the smallest vaue is "<<smallest;
+// for the largest
+// int size;
+// cin>>size;
+// int largest=INT_MIN;
+// int nums[size];
+// for(int i=0;i<size;i++){
+// cin>>nums[i];
+// }for(int i=0;i<size;i++){
+//     if(nums[i]>largest){
+//         largest=nums[i];
+//     }
+// }
+// cout<<"the largest number is "<<largest;
+
+// int nums[]={23,54,41,54,23};
+// int size=sizeof(nums)/sizeof(int);
+// cout<<"the size of the array is "<<size<<endl;
+// int smallest=INT_MAX;
+// for(int i=0;i<size;i++){
+// smallest=min(nums[i],smallest);
+// }
+// cout<<smallest;
+// ####### pass by reference
+void changearr(int nums[])
+
+
+
+
+
+
+
 
 
 
